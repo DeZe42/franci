@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="form">
+        <input type="text" [formControl]="tennivalo">
+        <button (click)="hozzaadas()">Hozzaadas</button>
+        <div class="piros" *ngFor="let element of lista">
+            <span> Mai tennivalo {{ element.dolog }} </span>
+            <button (click)="szerkesztes(element.dolog)">Szerkesztes</button>
+            <button (click)="deletee(element.dolog)">Torles</button>
+
+        </div>
+
+        <input type="text"[formControl]="szerkeszto">
+    </div>
+</div>
+

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.piros {
+    background-color: crimson;
+    border-bottom:10px solid  black;
+}
